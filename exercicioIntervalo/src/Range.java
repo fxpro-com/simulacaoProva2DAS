@@ -6,37 +6,31 @@ import javax.swing.text.html.HTMLEditorKit.Parser;
 
 
 public class Range {
-
-	ArrayList<String> numerosContidosNoIntervalo;
-	char primeiro, segundo;
+	
+	int primeiro, segundo;
 	
 	public Range(String intervalo) {
-		this.numerosContidosNoIntervalo = new ArrayList<String>();
-		
-		primeiro = intervalo.charAt(1);
-		segundo = intervalo.charAt(3);
-	
-		for(int i = primeiro-48; i <= segundo-49; i++){
-			numerosContidosNoIntervalo.add(String.valueOf(i));
+		int posiVirgula=0;
+		for(int i=0; i<intervalo.length(); i++){
+			if(intervalo.charAt(i)== ','){
+				posiVirgula=i;
+			}
 		}
+		String num1 = intervalo.substring(1, posiVirgula);
+		String num2 = intervalo.substring(posiVirgula+1, intervalo.length()-1);
+		
+		primeiro = Integer.parseInt(num1);
+		segundo = Integer.parseInt(num2);
 	}
 
 	public String constroeIntervalo() {
-		java.util.Iterator<String> iterator = numerosContidosNoIntervalo.iterator();
-		String retorno = null;
-		int contadorNumeros = 0;
-		
-		while(iterator.hasNext()){
-			contadorNumeros++;
-			if(numerosContidosNoIntervalo.size() != contadorNumeros)
-				retorno += iterator.next() + ",";
-			else
-				retorno = iterator.next();
+		String retorno = "";
+		for(int i=primeiro; i<=segundo; i++){
+			retorno+=i;
+			if(i!=segundo){
+				retorno+=",";
+			}
 		}
-		System.out.println(primeiro);
-		System.out.println(segundo);
-		System.out.println(numerosContidosNoIntervalo);
-		
 		return retorno;
 	}
 }
