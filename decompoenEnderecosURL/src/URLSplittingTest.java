@@ -28,7 +28,7 @@ public class URLSplittingTest {
 	
 	@Test
 	public void testDomain() {
-		assertEquals("www.google.se/", urlSplitting.domain(url));
+		assertEquals("www.google.se", urlSplitting.domain(url));
 	}
 
 }
