@@ -1,10 +1,9 @@
 import static org.junit.Assert.*;
 
-import java.util.ArrayList;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.w3c.dom.ranges.Range;
 
 
 public class RangeTest {
@@ -13,7 +12,7 @@ public class RangeTest {
 	
 	@Before
 	public void setUp() throws Exception {
-		range = new Range("[1,4]");
+		range = new Range("[1,4)");
 	}
 
 	@After
@@ -23,7 +22,7 @@ public class RangeTest {
 
 	@Test
 	public void contruirIntervalotest() {
-		assertEquals("1,2,3", range.constroeIntervalo());
+		assertArrayEquals("1,2,3", range.constroeIntervalo());
 	}
 
 }
