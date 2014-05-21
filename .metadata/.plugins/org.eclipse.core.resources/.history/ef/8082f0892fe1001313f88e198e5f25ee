@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+
+public class Range {
+
+	ArrayList<String> numerosContidosNoIntervalo;
+	
+	
+	public Range(String[] intervalo) {
+		this.numerosContidosNoIntervalo = new ArrayList<String>();
+		String segundaPosicao = intervalo[1];
+		String terceiraPosicao = intervalo[3];
+		
+	}
+
+	public String constroeIntervalo() {
+		
+		
+		
+		return "1,2,3";
+	}
+
+}

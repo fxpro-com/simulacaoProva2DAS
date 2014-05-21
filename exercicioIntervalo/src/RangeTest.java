@@ -23,6 +23,11 @@ public class RangeTest {
 
 	@Test
 	public void contruirIntervalotest() {
+		/*ArrayList<String> cadastro = new ArrayList<String>();
+		cadastro.add("1");
+		cadastro.add("2");
+		cadastro.add("3");*/
+		
 		assertEquals("1,2,3", range.constroeIntervalo());
 	}
 

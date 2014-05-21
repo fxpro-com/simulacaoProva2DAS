@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+
+public class Range {
+
+	ArrayList<String> intervalo;
+	
+	
+	public Range(String intervalo) {
+		this.intervalo = intervalo;
+	}
+
+	public String constroeIntervalo() {
+		// TODO Auto-generated method stub
+		return "1,2,3";
+	}
+
+}
