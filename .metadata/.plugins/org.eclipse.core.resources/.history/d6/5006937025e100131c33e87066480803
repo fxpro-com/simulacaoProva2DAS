@@ -23,7 +23,7 @@ public class URLSplittingTest {
 
 	@Test
 	public void testProtocol() {
-		assertEquals("http", urlSplitting.protocol(url));
+		assertEquals("http", urlSplitting.protocol());
 	}
 
 }
