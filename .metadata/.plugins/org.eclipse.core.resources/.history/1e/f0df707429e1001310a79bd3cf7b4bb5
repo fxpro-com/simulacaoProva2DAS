@@ -11,10 +11,4 @@ public class URLSplitting {
 		domain =  domain[1].split("/");//www.google     lala
 		return domain[0];
 	}
-
-	public String path(String url) {
-		String[] path =  url.split("://");
-		path =  path[1].split("/");
-		return path[1];
-	}
 }
