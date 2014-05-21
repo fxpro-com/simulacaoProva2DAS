@@ -7,7 +7,7 @@ import javax.swing.text.html.HTMLEditorKit.Parser;
 
 public class Range {
 	
-	int primeiroNumero, segundoNumero;
+	int primeiro, segundo;
 	
 	public Range(String intervalo) {
 		int posiVirgula=0;
@@ -19,20 +19,20 @@ public class Range {
 		String num1 = intervalo.substring(1, posiVirgula);
 		String num2 = intervalo.substring(posiVirgula+1, intervalo.length()-1);
 		
-		primeiroNumero = Integer.parseInt(num1);
-		segundoNumero = Integer.parseInt(num2);
+		primeiro = Integer.parseInt(num1);
+		segundo = Integer.parseInt(num2);
 		
 		if(intervalo.charAt(0) == '(')
-			primeiroNumero++;
+			primeiro++;
 		if(intervalo.charAt(intervalo.length()-1) == ')')
-			segundoNumero--;
+			segundo--;
 	}
 
 	public String constroeIntervalo() {
 		String retorno = "";
-		for(int i=primeiroNumero; i<=segundoNumero; i++){
+		for(int i=primeiro; i<=segundo; i++){
 			retorno+=i;
-			if(i!=segundoNumero){
+			if(i!=segundo){
 				retorno+=",";
 			}
 		}

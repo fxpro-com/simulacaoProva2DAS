@@ -10,6 +10,11 @@ public class RangeTest {
 
 	private Range range;
 	
+	@Before
+	public void setUp() throws Exception {
+		range = new Range("(1,10]");
+	}
+
 	@After
 	public void tearDown() throws Exception {
 		System.out.println("Testando");

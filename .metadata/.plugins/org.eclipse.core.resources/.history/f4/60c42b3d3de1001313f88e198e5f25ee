@@ -6,24 +6,24 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+
 public class RangeTest {
 
 	private Range range;
 	
+	@Before
+	public void setUp() throws Exception {
+		range = new Range("[1,10]");
+	}
+
 	@After
 	public void tearDown() throws Exception {
 		System.out.println("Testando");
 	}
-	
+
 	@Test
-	public void contruirIntervaloFechadotest() {
-		range = new Range("[1,10]");
+	public void contruirIntervalotest() {
 		assertEquals("1,2,3,4,5,6,7,8,9,10", range.constroeIntervalo());
 	}
 
-	@Test
-	public void contruirIntervaloAbertotest() {
-		range = new Range("(1,10]");
-		assertEquals("2,3,4,5,6,7,8,9,10", range.constroeIntervalo());
-	}
 }
