@@ -1,0 +1,13 @@
+import java.util.Stack;
+
+
+public class Pilha {
+
+	Stack pilha = new Stack();
+	
+	public String empurrar() {
+		pilha.push("cleiton");
+		return pilha.get(0);
+	}
+
+}

@@ -1,0 +1,13 @@
+import java.util.Stack;
+
+
+public class Pilha {
+
+	Stack pilha = new Stack();
+	
+	public boolean empurrar() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
