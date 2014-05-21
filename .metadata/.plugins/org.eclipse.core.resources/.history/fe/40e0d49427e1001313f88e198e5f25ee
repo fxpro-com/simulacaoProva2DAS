@@ -7,9 +7,8 @@ public class URLSplitting {
 	}
 
 	public Object domain(String url) {
-		String[] domain = url.split("://");
-		domain =  url.split("/images");
-		domain =  url.split("");
-		return domain[1];
+		String[] domain url.split("://");
+		domain =  url.split("/");
+		return domain[0];
 	}
 }
