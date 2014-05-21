@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="ContagemRegressivaTest" project="Contagem regressiva" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="ContagemRegressivaTest" time="0.0">
+    <testcase name="pararTest" classname="ContagemRegressivaTest" time="0.0"/>
+    <testcase name="verifaSeArmaTemBala" classname="ContagemRegressivaTest" time="0.0"/>
+  </testsuite>
+</testrun>

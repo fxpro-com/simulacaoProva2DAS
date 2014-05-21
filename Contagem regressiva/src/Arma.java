@@ -1,9 +1,12 @@
 
 public class Arma {
-
+	
 	public boolean temBala(int qntBalas) {
-		// TODO Auto-generated method stub
-		return true;
+		ContagemRegressiva.detectaTempo();
+		if(qntBalas > 0)
+			return true;
+		else
+			return false;
 	}
 
 }

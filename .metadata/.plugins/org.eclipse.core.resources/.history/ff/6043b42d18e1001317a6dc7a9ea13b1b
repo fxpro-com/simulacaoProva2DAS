@@ -1,0 +1,20 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class ContagemRegressivaTest {
+
+	@Test
+	public void pararTest() {
+		ContagemRegressiva contagemRegressiva= new ContagemRegressiva();
+		assertTrue(contagemRegressiva.pare(3));
+	}
+	
+	@Test
+	public void verifaSeArmaTemBala() {
+		Arma arma= new Arma();
+		assertEquals(true, arma.temBala(3));
+	}
+
+}

@@ -1,0 +1,19 @@
+
+public class ContagemRegressiva {
+	
+	Crononometro cronometro = new Crononometro();
+	
+	public boolean pare() {
+		
+		return true;
+	}
+	
+	public void detectaTempo(){
+		int tempo = 0;
+		
+		for(int i = 10; i > tempo; i--){
+			System.out.println("Atirando");
+		}
+	}
+
+}

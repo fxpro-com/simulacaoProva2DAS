@@ -1,0 +1,14 @@
+
+public class Arma {
+
+	ContagemRegressiva contagemRegressiva = new ContagemRegressiva();
+	
+	public boolean temBala(int qntBalas) {
+		contagemRegressiva.detectaTempo();
+		if(qntBalas > 0)
+			return true;
+		else
+			return false;
+	}
+
+}
