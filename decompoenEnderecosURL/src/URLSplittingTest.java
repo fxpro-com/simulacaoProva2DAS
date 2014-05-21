@@ -25,5 +25,10 @@ public class URLSplittingTest {
 	public void testProtocol() {
 		assertEquals("http", urlSplitting.protocol(url));
 	}
+	
+	@Test
+	public void testDomain() {
+		assertEquals("www.google.se", urlSplitting.domain(url));
+	}
 
 }
