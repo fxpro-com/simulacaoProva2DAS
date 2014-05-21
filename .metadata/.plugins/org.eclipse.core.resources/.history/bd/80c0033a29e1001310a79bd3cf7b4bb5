@@ -30,10 +30,5 @@ public class URLSplittingTest {
 	public void testDomain() {
 		assertEquals("www.google.se", urlSplitting.domain(url));
 	}
-	
-	@Test
-	public void testPath() {
-		assertEquals("images", urlSplitting.path(url));
-	}
 
 }
