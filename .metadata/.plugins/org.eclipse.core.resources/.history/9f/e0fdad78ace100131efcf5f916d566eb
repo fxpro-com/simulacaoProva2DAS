@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+
+public class TorneioFutebol {
+
+	public String partida(ArrayList<String> time1, ArrayList<String> time2) {
+		if(time1.get(1) > time2.get(2))
+		return "goias";
+	}
+
+}

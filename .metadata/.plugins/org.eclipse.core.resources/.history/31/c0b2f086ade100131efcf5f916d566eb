@@ -22,8 +22,8 @@ public class TorneioFutebolTest {
 		
 		time1.add("goias");
 		time1.add("3");
-		time2.add("santos");
-		time2.add("2");
+		time1.add("santos");
+		time1.add("2");
 		
 		assertEquals("goias", torneioFutebol.partida(time1,time2));
 	}
