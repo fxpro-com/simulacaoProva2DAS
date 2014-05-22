@@ -16,7 +16,7 @@ public class TorneioFutebolTest {
 	@Test
 	public void ganhadorPartidatest() {
 		
-		assertEquals("goias", torneioFutebol.partida());
+		assertArrayEquals("goias", torneioFutebol.partida());
 	}
 
 }
