@@ -82,7 +82,7 @@ public class TorneioFutebolTest {
 		timesDoTorneio.add(time8);
 		
 		
-		assertEquals("bahia", torneioFutebol.torneio(timesDoTorneio));
+		assertEquals("bahia", torneioFutebol.torneio());
 	}
 
 }
