@@ -31,7 +31,7 @@ public class TorneioFutebol {
 			ganhadoresPartida.add(ganhador);
 		}
 		
-		return this.torneio(ganhadoresPartida);
+		return null;
 	}
 	
 public ArrayList<String> mataMata(ArrayList<String> time1, ArrayList<String> time2) {

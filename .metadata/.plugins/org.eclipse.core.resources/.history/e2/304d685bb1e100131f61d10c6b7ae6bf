@@ -57,7 +57,7 @@ public class TorneioFutebolTest {
 		ArrayList<String> time8 = new ArrayList<String>();
 		
 		time1.add("flamengo");
-		time1.add("30");
+		time1.add("3");
 		timesDoTorneio.add(time1);
 		time2.add("santos");
 		time2.add("3");
@@ -75,14 +75,14 @@ public class TorneioFutebolTest {
 		time6.add("2");
 		timesDoTorneio.add(time6);
 		time7.add("corinthians");
-		time7.add("1");
+		time7.add("3");
 		timesDoTorneio.add(time7);
 		time8.add("bahia");
-		time8.add("3");
+		time8.add("9");
 		timesDoTorneio.add(time8);
 		
 		
-		assertEquals("corinthians", torneioFutebol.torneio(timesDoTorneio));
+		assertEquals("bahia", torneioFutebol.torneio(timesDoTorneio));
 	}
 
 }

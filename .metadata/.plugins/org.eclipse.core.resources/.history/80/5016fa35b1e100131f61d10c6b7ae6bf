@@ -28,10 +28,8 @@ public class TorneioFutebol {
 			ArrayList<String> ganhador = new ArrayList<String>();
 			ganhador = this.mataMata(timesDoTorneio.get(i),timesDoTorneio.get(i+1));
 			
-			ganhadoresPartida.add(ganhador);
+			ganhadoresPartida.add();
 		}
-		
-		return this.torneio(ganhadoresPartida);
 	}
 	
 public ArrayList<String> mataMata(ArrayList<String> time1, ArrayList<String> time2) {

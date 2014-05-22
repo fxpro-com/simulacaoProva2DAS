@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+
+public class TorneioFutebol {
+
+	public String partida(ArrayList<String> time1, ArrayList<String> time2) {
+		
+		int golsPrimeiroTime = Integer.parseInt(time1.get(1));
+		int golsSegundoTime = Integer.parseInt(time2.get(1));
+		
+		if(golsPrimeiroTime > golsSegundoTime)
+			return time1.get(0);
+		if(golsPrimeiroTime < golsSegundoTime)
+			return time2.get(0);
+		else
+			return time1.get(0);
+	}
+
+	public String torneio(ArrayList<ArrayList<String>> timesDoTorneio) {
+		return "bahia";
+	}
+
+}
