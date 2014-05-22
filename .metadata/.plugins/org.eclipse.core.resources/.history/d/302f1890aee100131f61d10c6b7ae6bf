@@ -13,7 +13,7 @@ public class TorneioFutebol {
 		if(golsPrimeiroTime < golsSegundoTime)
 			return time2.get(0);
 		else
-			return time1.get(0);
+			return "0";
 	}
 
 }
