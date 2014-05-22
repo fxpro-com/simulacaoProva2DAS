@@ -9,6 +9,8 @@ import org.junit.Test;
 public class RangeTest {
 
 	private Range range;
+	private Range rangeIntersecao1;
+	private Range rangeIntersecao2;
 	
 	@After
 	public void tearDown() throws Exception {
@@ -25,5 +27,11 @@ public class RangeTest {
 	public void contruirIntervaloAbertotest() {
 		range = new Range("(1,10]");
 		assertEquals("2,3,4,5,6,7,8,9,10", range.constroeIntervalo());
+	}
+	
+	@Test
+	public void detectaIntersecaoTest() {
+		rangeIntersecao1 = new Range("(1,10]");
+		assertEquals("2,3,4,5,6,7,8,9,10", rangeIntersecao1.constroeIntervalo());	
 	}
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="1020" x="163" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -11,6 +11,7 @@
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
@@ -20,7 +21,7 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1400697205586" focus="true" label="Workspace - Resource">
+<page aggregateWorkingSetId="Aggregate for window 1400697205586" focus="true" label="Workspace - Java">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -29,6 +30,10 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
@@ -41,9 +46,25 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Contagem regressiva/src/ContagemRegressivaTest.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="135" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ContagemRegressiva.java" partName="ContagemRegressiva.java" path="/home/cleiton/github/simulacaoProva2DAS/Contagem regressiva/src/ContagemRegressiva.java" title="ContagemRegressiva.java" tooltip="Contagem regressiva/src/ContagemRegressiva.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ContagemRegressiva.java" partName="ContagemRegressiva.java" path="/home/cleiton/github/simulacaoProva2DAS/Contagem regressiva/src/ContagemRegressiva.java" title="ContagemRegressiva.java" tooltip="Contagem regressiva/src/ContagemRegressiva.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Contagem regressiva/src/ContagemRegressiva.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="179" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="URLSplittingTest.java" partName="URLSplittingTest.java" path="/home/cleiton/github/simulacaoProva2DAS/decompoenEnderecosURL/src/URLSplittingTest.java" title="URLSplittingTest.java" tooltip="decompoenEnderecosURL/src/URLSplittingTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/decompoenEnderecosURL/src/URLSplittingTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="573" selectionTopPixel="147"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="URLSplitting.java" partName="URLSplitting.java" path="/home/cleiton/github/simulacaoProva2DAS/decompoenEnderecosURL/src/URLSplitting.java" title="URLSplitting.java" tooltip="decompoenEnderecosURL/src/URLSplitting.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/decompoenEnderecosURL/src/URLSplitting.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="304" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RangeTest.java" partName="RangeTest.java" path="/home/cleiton/github/simulacaoProva2DAS/exercicioIntervalo/src/RangeTest.java" title="RangeTest.java" tooltip="exercicioIntervalo/src/RangeTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exercicioIntervalo/src/RangeTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="258" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Range.java" partName="Range.java" path="/home/cleiton/github/simulacaoProva2DAS/exercicioIntervalo/src/Range.java" title="Range.java" tooltip="exercicioIntervalo/src/Range.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/exercicioIntervalo/src/Range.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="855" selectionTopPixel="286"/>
 </editor>
 </editors>
 <views>
@@ -52,6 +73,50 @@
 </view>
 <view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
 <viewState failuresOnly="false" layout="1" orientation="2" ratio="500" scroll="false" time="true"/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (6 items)"/>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="245" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
 </view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
@@ -68,11 +133,13 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.junit.ResultView" activePerspective="org.eclipse.ui.resourcePerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -131,7 +198,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.39689922" ratioLeft="512" ratioRight="778" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.16821705" ratioLeft="217" ratioRight="1073" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.6596434" ratioLeft="407" ratioRight="210" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -155,165 +222,273 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.jdt.junit.ResultView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7494199" ratioLeft="969" ratioRight="324" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.28062016" ratioLeft="362" ratioRight="928" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.74922603" ratioLeft="484" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.74948454" ratioLeft="727" ratioRight="243" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Contagem regressiva/src/Arma.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Contagem regressiva/src/ContagemRegressivaTest.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Contagem regressiva/src/ContagemRegressiva.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Contagem regressiva/src/Crononometro.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Contagem regressiva/src/Crononometro.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/exercicioIntervalo/src/RangeTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/exercicioIntervalo/src/Range.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/decompoenEnderecosURL/src/URLSplitting.java"/>
 </editors>
-<item historyLabel="Arma.java" index="0">
-<position info="not_deleted" x="118" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="917" y="0"/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="357" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position/>
 </item>
-<item historyLabel="Crononometro.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="350" y="0"/>
 </item>
-<item historyLabel="Arma.java" index="0">
-<position info="not_deleted" x="118" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="376" y="0"/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="357" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="319" y="32"/>
 </item>
-<item historyLabel="Crononometro.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="431" y="0"/>
 </item>
-<item historyLabel="Arma.java" index="0">
-<position info="not_deleted" x="22" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="282" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="483" y="0"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="143" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="505" y="0"/>
 </item>
-<item historyLabel="Arma.java" index="0">
-<position info="not_deleted" x="99" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="357" y="0"/>
+<item historyLabel="RangeTest.java" index="0">
+<position info="not_deleted" x="616" y="0"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="275" y="0"/>
+<item historyLabel="URLSplitting.java" index="2">
+<position info="not_deleted" x="304" y="0"/>
 </item>
-<item historyLabel="Crononometro.java" index="4">
-<position info="not_deleted" x="1" y="28"/>
+<item historyLabel="Range.java" index="1">
+<position/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="357" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="348" y="0"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="275" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position/>
 </item>
-<item historyLabel="Crononometro.java" index="4">
-<position info="not_deleted" x="1" y="28"/>
+<item historyLabel="RangeTest.java" index="0">
+<position info="not_deleted" x="616" y="0"/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="357" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="748" y="0"/>
 </item>
-<item historyLabel="Arma.java" index="0">
-<position info="not_deleted" x="83" y="16"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="724" y="0"/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="357" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="530" y="22"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="160" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="357" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="903" y="0"/>
 </item>
-<item historyLabel="Crononometro.java" index="4">
-<position info="not_deleted" x="1" y="28"/>
+<item historyLabel="Range.java" index="1">
+<position/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="34" y="1"/>
+<item historyLabel="RangeTest.java" index="0">
+<position info="not_deleted" x="615" y="0"/>
 </item>
-<item historyLabel="Arma.java" index="0">
-<position info="not_deleted" x="20" y="1"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="896" y="0"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="34" y="0"/>
+<item historyLabel="RangeTest.java" index="0">
+<position info="not_deleted" x="615" y="0"/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="357" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position/>
 </item>
-<item historyLabel="Arma.java" index="0">
-<position info="not_deleted" x="1" y="19"/>
+<item historyLabel="RangeTest.java" index="0">
+<position info="not_deleted" x="615" y="0"/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="357" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="803" y="0"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="34" y="0"/>
+<item historyLabel="RangeTest.java" index="0">
+<position info="not_deleted" x="615" y="0"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="201" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="928" y="0"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="37" y="25"/>
+<item historyLabel="RangeTest.java" index="0">
+<position info="not_deleted" x="33" y="0"/>
 </item>
-<item historyLabel="Arma.java" index="0">
-<position info="not_deleted" x="20" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="931" y="0"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="37" y="25"/>
+<item historyLabel="RangeTest.java" index="0">
+<position info="not_deleted" x="821" y="0"/>
 </item>
-<item historyLabel="Arma.java" index="0">
-<position info="not_deleted" x="20" y="1"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="931" y="0"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="37" y="25"/>
+<item historyLabel="Range.java" index="1">
+<position/>
 </item>
-<item historyLabel="Arma.java" index="0">
-<position info="not_deleted" x="20" y="1"/>
+<item historyLabel="Range.java" index="1">
+<position/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="357" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="665" y="0"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="37" y="25"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="724" y="0"/>
 </item>
-<item historyLabel="Arma.java" index="0">
-<position info="not_deleted" x="20" y="1"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="724" y="0"/>
 </item>
-<item historyLabel="Arma.java" index="0">
-<position info="not_deleted" x="65" y="33"/>
+<item historyLabel="RangeTest.java" index="0">
+<position/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="154" y="6"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="724" y="0"/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="285" y="0"/>
+<item historyLabel="RangeTest.java" index="0">
+<position info="not_deleted" x="597" y="0"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="201" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="651" y="0"/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="285" y="0"/>
+<item historyLabel="RangeTest.java" index="0">
+<position info="not_deleted" x="821" y="0"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="201" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="658" y="0"/>
 </item>
-<item historyLabel="Arma.java" index="0">
-<position info="not_deleted" x="65" y="18"/>
+<item historyLabel="RangeTest.java" index="0">
+<position info="not_deleted" x="810" y="0"/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="285" y="0"/>
+<item historyLabel="Range.java" index="1">
+<position info="not_deleted" x="855" y="0"/>
 </item>
-<item historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="37" y="24"/>
+<item historyLabel="RangeTest.java" index="0">
+<position info="not_deleted" x="258" y="0"/>
 </item>
-<item historyLabel="ContagemRegressivaTest.java" index="1">
-<position info="not_deleted" x="135" y="10"/>
+<item historyLabel="URLSplitting.java" index="2">
+<position info="not_deleted" x="304" y="0"/>
 </item>
-<item active="true" historyLabel="ContagemRegressiva.java" index="2">
-<position info="not_deleted" x="37" y="24"/>
+<item active="true" historyLabel="Range.java" index="1">
+<position info="not_deleted" x="855" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -321,6 +496,13 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="bottom"/>
+<trimItem IMemento.internal.id="right"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -332,6 +514,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Range.java" tooltip="exercicioIntervalo/src/Range.java">
+<persistable path="/exercicioIntervalo/src/Range.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RangeTest.java" tooltip="exercicioIntervalo/src/RangeTest.java">
+<persistable path="/exercicioIntervalo/src/RangeTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="URLSplitting.java" tooltip="decompoenEnderecosURL/src/URLSplitting.java">
+<persistable path="/decompoenEnderecosURL/src/URLSplitting.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="URLSplittingTest.java" tooltip="decompoenEnderecosURL/src/URLSplittingTest.java">
+<persistable path="/decompoenEnderecosURL/src/URLSplittingTest.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Crononometro.java" tooltip="Contagem regressiva/src/Crononometro.java">
 <persistable path="/Contagem regressiva/src/Crononometro.java"/>
 </file>
