@@ -16,8 +16,4 @@ public class TorneioFutebol {
 			return time1.get(0);
 	}
 
-	public String torneio(ArrayList<ArrayList<String>> timesDoTorneio) {
-		return "bahia";
-	}
-
 }
